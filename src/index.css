@@ -1,0 +1,21 @@
+
+@import "tailwindcss";
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+/* Global body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #1f2937;
+}
+
+/* Text selection */
+::selection {
+  background: #ddd6fe;
+  color: #5b21b6;
+}
